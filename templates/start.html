@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/css/styles.css">
+    <!-- GOOGLE FONT API -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Ancizar+Sans:ital,wght@0,100..1000;1,100..1000&family=Cinzel:wght@400..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <!-- GOOGLE FONT API -->
+    <title>Choose Your Own Adventure</title>
+</head>
+<body>
+
+    <div class="narrativeBox">
+        
+        <p>You exit the bus and enter the hotel lobby. They scan your barcode for your hotel room.</p>
+        <p>Welcome {{ session['name'] }}! Thank you so much for choosing to stay with us!</p>
+        <p>We have a lot of fun places where you can begin your vacation! We have a special exhibit going on the museum right now, 
+            the hotel bar is a great place to unwind and meet the locals, or you could simply choose to take in the vacation and hit the beach!
+        </p>
+        
+        <div class="choices">
+            <a href="/1a" class="choiceLine">Let's relax! The beach sounds great.</a>
+            <a href="/2a" class="choiceLine">I could use a drink and unwind.</a>
+            <a href="/3a" class="choiceLine">Learning the towns history could be fun and educational.</a>
+        </div>
+        
+    </div>
+
+</body>
+</html>

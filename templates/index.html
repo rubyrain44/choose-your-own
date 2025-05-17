@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/css/styles.css">
+    <!-- GOOGLE FONT API -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Ancizar+Sans:ital,wght@0,100..1000;1,100..1000&family=Cinzel:wght@400..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <!-- GOOGLE FONT API -->
+    <title>Choose Your Own Adventure</title>
+</head>
+<body>
+    
+    <div class="introBox">
+        
+            <h1>Choose Your Own Adventure</h1>
+
+            <p>
+                Welcome to my choose your own adventure game! There will be several choices you can make that will 
+                determine which path and ending you receive in the end. Good luck and have fun! To get started, what's your name?
+            </p>
+        
+            <form action="/initialize" method="post">
+                <input type="text" name="name" placeholder="What is your name?">
+                <button>Let's begin!</button>
+            </form>           
+
+        </div>
+
+
+
+</body>
+</html>

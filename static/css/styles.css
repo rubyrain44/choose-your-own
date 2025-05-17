@@ -1,0 +1,80 @@
+/* ///////////////////////////////////////////////////////////////////////////////////////// */
+/* BODY CSS */
+
+body {
+    font-family: "Ubuntu", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* FADE IN EFFECT */
+    opacity: 0;
+    animation: fadeIn 1s forwards;
+}
+
+/* BODY/PAGE FADE IN ANIMATION */
+@keyframes fadeIn {
+    to {opacity: 1;}
+}
+
+/* ///////////////////////////////////////////////////////////////////////////////////////// */
+/* CHOICES CSS */
+
+.choices {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.choiceLine {
+    text-decoration: none;
+    border: 1px rgb(145, 143, 143) solid;
+    border-radius: 15px;
+    color: black;
+    padding: 15px;
+    margin: 10px;
+    /* CHOICELINE FADE IN ANIMATION */
+    opacity: 0;
+    transform: translateY(10px);
+    animation: lineFade 1s ease-out forwards;
+}
+
+@keyframes lineFade {
+    to {
+    opacity: 1;
+    transform: translateY(0);
+    }
+}
+
+/* ONE AT A TIME FADE IN */
+.choiceLine:nth-child(1) { animation-delay: 1.2s; }
+.choiceLine:nth-child(2) { animation-delay: 2s; }
+.choiceLine:nth-child(3) { animation-delay: 2.8s; }
+
+/* ////////////////////////////////////////////////////////////////////// */
+/* DIV BOXES */
+
+.introBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 500px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.narrativeBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 700px;
+    padding: 20px;
+    margin: 20px;
+    margin-top: 100px;
+}
+
+/* /////////////////////////////////////////////////////// */
+

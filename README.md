@@ -20,3 +20,7 @@ The premise of this project is to use ChatGPT to help me build a choose your own
 
 <!-- Prompt/Script Ideas -->
 -Incorporate a guestbook type thing where users have to leave something in the guestbook for the game. These will be saved and users can see everything that everyone else has written in the book as well.
+
+<!-- ------------------------------------------------------------------------------------------------------- -->
+
++Create a database for the guestbook entries to be stored and saved
